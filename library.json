@@ -1,5 +1,5 @@
 {
-  "name": "I2Cdevlib-BMP085",
+  "name": "NRF24L01Simple",
   "keywords": "wireless, 2.4GHz, nrl24l01+, spi",
   "description": "A simple library to send messages with an NRF24L01+ wireless radio chip. It is also possible to use the library in streaming mode (using Arduino's print() command)",
 
