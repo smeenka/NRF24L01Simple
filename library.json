@@ -5,7 +5,6 @@
 
    "version": "1.0.0", 
  
-  "include": "NRF24L01Simple",
   "repository":
   {
     "type": "git",
