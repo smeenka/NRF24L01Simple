@@ -1,0 +1,22 @@
+{
+  "name": "I2Cdevlib-BMP085",
+  "keywords": "wireless, 2.4GHz, nrl24l01+, spi",
+  "description": "A simple library to send messages with an NRF24L01+ wireless radio chip. It is also possible to use the library in streaming mode (using Arduino's print() command)",
+
+   "version": "1.0.0", 
+ 
+  "include": "NRF24L01Simple",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/smeenka/platformio-libs"
+  },
+  "platforms": [
+        "atmelavr",
+        "atmelmegaavr"
+  ], 
+  "frameworks": "arduino",
+  "dependencies":[
+    ]
+}
+
