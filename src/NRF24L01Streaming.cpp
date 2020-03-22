@@ -1,7 +1,8 @@
 #include <NRF24L01Streaming.h>
+#include <Arduino.h>
 #include <SPI.h>
 
-#if     1
+#ifdef  NRF24L01SIMPLE_DEBUG
 #define debug(input)   { Serial.print(input);  }
 #define debugln(input) { Serial.println(input); }
 #else

@@ -1,4 +1,6 @@
 #include <NRF24L01Simple.h>
+#include <Arduino.h>
+#include <SPI.h> 
 
 #ifdef  NRF24L01SIMPLE_DEBUG
 #define debug(input)   { Serial.print(input);    }
@@ -10,7 +12,6 @@
 #define debugln(input) 
 #endif
 
-#include <SPI.h> // Use the antonov  hardware SPI library.
 
 ////////////////////
 // Public methods //
